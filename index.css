@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url("ball-bg.jpg");
+    background-size: cover;
+}
+.title {
+    text-decoration: underline;
+}
+.container {
+    font-family: 'Verdana';
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.score {
+    width: 100px;
+    margin-top: -10px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: azure ;
+    background: black;
+    border-radius: 10px;
+}
+
+.btn-score {
+    color: whitesmoke;
+    background-color: darkorange;
+    border-radius: 5px;
+}
